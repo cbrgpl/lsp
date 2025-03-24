@@ -1,0 +1,25 @@
+{
+  "extends": "@tsconfig/node22/tsconfig.json",
+  "include": [ "src/**/*.ts" ],
+  "exclude": [ "src/**/__tests__/*" ],
+  "compilerOptions": {
+    "lib": [
+      "ESNext",
+    ],
+    "baseUrl": ".",
+    "module": "NodeNext",
+    "moduleResolution": "nodenext",
+    "noImplicitAny": true,
+    "noEmit": true,
+    "types": ["node"],
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "strictNullChecks": true,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
+    "useDefineForClassFields": true,  
+  }
+}
